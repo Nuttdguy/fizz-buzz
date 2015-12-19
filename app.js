@@ -8,7 +8,7 @@ $(document).ready(function() {
 var resetFizzBuzz = function() {
 	
 	// for resetting the screen
-	$(this).on('click', function() {
+	$(this).on('keydown', function() {
 		$('.main-section h1').remove();
 	});
 	
